@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt , faPhoneAlt , faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const logo = require('../../../Assets/Images/TruckBook-Logo.png')
+const fb = require('../../../Assets/Images/facebook-circled.png')
 
 
 class Footer extends React.Component{
@@ -31,6 +32,9 @@ class Footer extends React.Component{
                         <FontAwesomeIcon className="footer-icon" icon={faEnvelope} /> <a href="mailto:support@truckbook.us" className="footer-phone">support@truckbook.us</a>
                     </li>
                 </ul>
+                <a>
+                    <img src={fb} className="footer-fb" />
+                </a>
             </div>
         )
     }
